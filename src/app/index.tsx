@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import * as Device from 'expo-device';
 import { Platform, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -96,3 +97,68 @@ const styles = StyleSheet.create({
     borderRadius: Spacing.four,
   },
 });
+=======
+import ProfileCard from "@/components/profile-card";
+import { StatusBar } from "expo-status-bar";
+import {
+    ScrollView,
+    StyleSheet,
+} from "react-native";
+
+export default function App() {
+    return (
+        <ScrollView contentContainerStyle={styles.screen}>
+
+            <StatusBar style="dark" />
+
+            {/* First card — your own data */}
+            <ProfileCard
+                name="Monami Maymuna"
+                studentId="23-54885-3"
+                department="Computer Science — AIUB"
+                bio="Passionate about mobile development and building tools that make everyday life easier."
+                skills={[
+                    "React Native",
+                    "JavaScript",
+                    "Node.js",
+                    "PostgreSQL",
+                ]}
+            />
+
+            {/* Second card — a classmate's data */}
+            <ProfileCard
+                name="Rakib Rahman"
+                studentId="22-67890-2"
+                department="Computer Science — AIUB"
+                bio="Interested in AI and full-stack web development. Loves competitive programming."
+                skills={[
+                    "Python",
+                    "Machine Learning",
+                    "React",
+                    "Django",
+                ]}
+            />
+
+            {/* Third card — no skills */}
+            <ProfileCard
+                name="Saad Al Rafi"
+                studentId="22-54321-3"
+                department="Computer Science — AIUB"
+                bio="Aspiring software engineer with a passion for mobile apps and UI/UX design."
+            />
+
+        </ScrollView>
+    );
+}
+
+const styles = StyleSheet.create({
+    screen: {
+        backgroundColor: "#F0F4F8",
+
+        alignItems: "center",
+
+        paddingTop: 60,
+        paddingBottom: 40,
+    },
+});
+>>>>>>> de540c0cfc321449465d38bef05bfbab9037b67f

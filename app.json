@@ -1,11 +1,20 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "StudentDirectory",
     "slug": "StudentDirectory",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "studentdirectory",
+=======
+    "name": "StudentCard",
+    "slug": "StudentCard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "studentcard",
+>>>>>>> de540c0cfc321449465d38bef05bfbab9037b67f
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"

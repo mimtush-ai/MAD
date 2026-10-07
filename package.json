@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "studentdirectory",
+=======
+  "name": "studentcard",
+>>>>>>> de540c0cfc321449465d38bef05bfbab9037b67f
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
